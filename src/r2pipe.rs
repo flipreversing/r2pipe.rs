@@ -56,7 +56,7 @@ pub struct R2PipeThread {
 #[derive(Default, Clone)]
 pub struct R2PipeSpawnOptions {
     pub exepath: String,
-    pub args: Vec<&'static str>,
+    pub args: Vec<String>,
 }
 
 /// Provides abstraction between the three invocation methods.
